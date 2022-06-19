@@ -1,6 +1,6 @@
 # carrusel-app
 <img src="https://raw.githubusercontent.com/canosan/carrusel-app/main/assets/icon.png" height="80" width="80" >
-A simple chat app made with React Native (Expo) and Firebase
+A simple Android chat app made with React Native (Expo) and Firebase
 
 ## Getting Started
 

@@ -1,0 +1,38 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /usuarios/{userId} {
+      allow read: if isAuthenticated();
+      allow write: if uidMatch(userId);
+    }
+    
+    match /salas/{roomId} {
+      allow create: if isAuthenticated();
+      allow read,update,delete: if isChatMember(resource.data.listaParticipantes);
+      
+      match /mensajes/{messageId} {
+        allow create,update: if isChatMember(getSala(roomId).data.listaParticipantes);
+        allow read: if !existeSala(roomId) || isChatMember(getSala(roomId).data.listaParticipantes);
+        allow delete: if false;
+      }
+    }
+    
+    function getSala(roomId) {
+      return get(/databases/$(database)/documents/salas/$(roomId))
+    }
+    function existeSala(roomId) {
+      return exists(/databases/$(database)/documents/salas/$(roomId))
+    }
+    
+    function isAuthenticated() {
+      return request.auth != null;
+    }
+    function uidMatch(uid) {
+      return isAuthenticated() && uid == request.auth.uid
+    }
+    function isChatMember(lista) {
+      return isAuthenticated() && request.auth.token.email in lista;
+    }
+
+  }
+}

@@ -1,5 +1,5 @@
 # carrusel-app
-<img src="https://raw.githubusercontent.com/canosan/carrusel-app/main/assets/icon.png" height="60" width="60" >
+<img src="https://raw.githubusercontent.com/canosan/carrusel-app/main/assets/icon.png" height="80" width="80" >
 A simple chat app made with React Native (Expo) and Firebase
 
 ## Getting Started
@@ -32,5 +32,5 @@ expo build:android
 
 ## Deployment
 
-Insert your Firebase app's config inside firebaseConfig in [firestore.js](https://github.com/canosan/carrusel-app/blob/main/firebase.js). 
+Insert your Firebase app's config inside firebaseConfig in [firebase.js](https://github.com/canosan/carrusel-app/blob/main/firebase.js). 
 

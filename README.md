@@ -1,5 +1,5 @@
 # carrusel-app
-<img src="[http://url.to/image.png](https://github.com/canosan/carrusel-app/blob/main/assets/icon.png?raw=true)" height="60" width="60" >
+<img src="https://raw.githubusercontent.com/canosan/carrusel-app/main/assets/icon.png" height="60" width="60" >
 A simple chat app made with React Native (Expo) and Firebase
 
 ## Getting Started

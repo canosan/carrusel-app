@@ -1,6 +1,6 @@
 # Carrusel
 <img src="https://raw.githubusercontent.com/canosan/carrusel-app/main/assets/icon.png" height="80" width="80" >
-Una sencilla aplicación de mensajería instantánea
+Una sencilla aplicación Android de mensajería instantánea hecha con React Native (Expo) y Firebase
 
 ## Comenzando
 
@@ -8,7 +8,7 @@ Siguiendo estas instrucciones tendrás una copia del proyecto corriendo sobre tu
 
 ### Preparando el entorno
 
-Para preparar todo lo necesarios, en la raíz del repositorio ejecuta:
+Para preparar todo lo necesario, en la raíz del repositorio ejecuta:
 
 ```
 npm install

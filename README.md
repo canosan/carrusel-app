@@ -34,3 +34,5 @@ expo build:android
 
 Insert your Firebase app's config inside firebaseConfig in [firebase.js](https://github.com/canosan/carrusel-app/blob/main/firebase.js). 
 
+The Database and Storage security rules can be found inside the [firebase](https://github.com/canosan/carrusel-app/tree/main/firebase) folder.
+

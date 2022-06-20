@@ -1,38 +1,42 @@
-# carrusel-app
+# Carrusel
 <img src="https://raw.githubusercontent.com/canosan/carrusel-app/main/assets/icon.png" height="80" width="80" >
-A simple Android chat app made with React Native (Expo) and Firebase
+Una sencilla aplicación de mensajería instantánea
 
-## Getting Started
+## Comenzando
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+Siguiendo estas instrucciones tendrás una copia del proyecto corriendo sobre tu máquina, para desarrollar, probar o compilar la apliación. Mira las notas de despliegue para ver cómo desplegar la aplicación.
 
-### Preparing the dev environment
+### Preparando el entorno
+
+Para preparar todo lo necesarios, en la raíz del repositorio ejecuta:
 
 ```
 npm install
 ```
 
-### Run a local live testing environment
+### Ejecutar un entorno de pruebas local y en vivo
 
-On your dev machine, run:
+En la misma raíz, ejecuta:
 
 ```
 npm run start
 ```
 
-And on your android device, install the Expo app from your favorite store and scan the QR output by the previous command.
+Y en tu dispositivo Android, instala la app 'Expo' de tu tienda de aplicaciones preferida, y escanea el QR que devuelva la salida.
 
-### Building
+### Compilación
 
-To build a binary, run:
+Para compilar la app, basta con ejecutar:
 
 ```
 expo build:android
 ```
 
-## Deployment
+Y seguir los pasos indicados.
 
-Insert your Firebase app's config inside firebaseConfig in [firebase.js](https://github.com/canosan/carrusel-app/blob/main/firebase.js). 
+## Despliegue
 
-The Database and Storage security rules can be found inside the [firebase](https://github.com/canosan/carrusel-app/tree/main/firebase) folder.
+Inserta la configuración de tu aplicación Firebase dentro de firebaseConfig en [firebase.js](https://github.com/canosan/carrusel-app/blob/main/firebase.js). 
+
+Las reglas de seguridad de Firestore Database y Storage se pueden encontrar dentro de la carpeta [firebase](https://github.com/canosan/carrusel-app/tree/main/firebase).
 

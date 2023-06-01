@@ -1,6 +1,8 @@
 # Carrusel
 <img src="https://raw.githubusercontent.com/canosan/carrusel-app/main/assets/icon.png" height="80" width="80" >
-Una sencilla aplicación Android de mensajería instantánea hecha con React Native (Expo) y Firebase
+
+Una sencilla aplicación Android de mensajería instantánea hecha con React Native (Expo) y Firebase. Este proyecto fue creado como
+trabajo final para el Ciclo Superior en Desarrollo de Aplicaciones Web. Podras encontrar más detalles en el documento [Memoria.pdf](https://github.com/canosan/blob/main/Memoria.pdf). 
 
 ## Comenzando
 
